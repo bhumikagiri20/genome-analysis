@@ -1,0 +1,22 @@
+#Load Libraries
+library(tidyverse)
+
+#Load Files
+SNPs<- read.table("23andMe_complete.txt", header = TRUE, sep = "\t")
+
+#To adjust figure size (r, fig.width = 6, fig.height = 6} )
+SNPs$chromosome = ordered(SNPs$chromosome, levels=c(seq(1, 22), "X", "Y", "MT"))
+ggplot(data = SNPs) + 
+  geom_bar(mapping = aes(x = genotype, fill = chromosome)) + 
+  coord_polar() +
+  ggtitle("Total SNPs for each genotype") +
+  ylab("Total number of SNPs") +
+  xlab("Genotype")
+
+#Graphic Output
+# Plot graph to a pdf outputfile
+pdf("SNP_example_plot.pdf", width=6, height=3)
+ggplot(data = SNPs) + 
+  geom_bar(mapping = aes(x = chromosome, fill = genotype))
+dev.off()
+
