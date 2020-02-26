@@ -1,0 +1,15 @@
+---
+title: "index"
+author: "Bhumika Subedi-Giri"
+date: "2/26/2020"
+output: html_document
+---
+
+This is my new website
+
+[Lab5](Lab5_SubediGiri.html)
+
+```{r}
+
+```
+
