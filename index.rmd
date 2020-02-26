@@ -3,13 +3,18 @@ title: "index"
 author: "Bhumika Subedi-Giri"
 date: "2/26/2020"
 output: html_document
+bibliography: data/references.bib
 ---
 
 This is my new website
 
-[Lab5](Lab5_SubediGiri.html)
+* [Lab2](Lab2_SubediGiri.html)
+* [Lab3](Lab3_SubediGiri.html)
+* [Lab4](Lab4_SubediGiri.html)
+* [Lab5](Lab5_SubediGiri.html)
 
-```{r}
 
-```
+Application written in R [@RCoreTeam] using the Shiny framework [@Chang2015].
+
+# REFERENCES
 
