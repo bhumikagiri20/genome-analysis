@@ -13,7 +13,7 @@ This is my new website
 * [Lab4](Lab4_SubediGiri.html)
 * [Lab5](Lab5_SubediGiri.html)
 * [Lab9](SubediGiri_lab9.html)
-
+* [Lab10](Lab_10SubediGiri.html)
 
 Application written in R [@RCoreTeam] using the Shiny framework [@Chang2015].
 
