@@ -1,0 +1,12 @@
+name: Exercise1
+title: Exercise1
+username:
+account: bhumika-subedigiri
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2226516
+bundleId: 3091895
+url: https://bhumika-subedigiri.shinyapps.io/Exercise1/
+when: 1588368924.38215
+asMultiple: FALSE
+asStatic: FALSE

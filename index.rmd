@@ -14,6 +14,11 @@ This is my new website
 * [Lab5](Lab5_SubediGiri.html)
 * [Lab9](SubediGiri_lab9.html)
 * [Lab10](Lab_10SubediGiri.html)
+* Lab 11/12 
+* [Exercise1](https://bhumika-subedigiri.shinyapps.io/Exercise1/)
+* [Exercise2](https://bhumika-subedigiri.shinyapps.io/Exercise2/)
+* [Exercise3](https://bhumika-subedigiri.shinyapps.io/Exercise3/)
+* [Exercise4](https://bhumika-subedigiri.shinyapps.io/Exercise4/)
 
 Application written in R [@RCoreTeam] using the Shiny framework [@Chang2015].
 
